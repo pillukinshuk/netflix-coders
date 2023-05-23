@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Health Tracker App</title>
+  <style>
+
+  </style>
+</head>
+<body>
+  <h1>Health Tracker App</h1>
+
+  <!-- Steps Count, Calories Burnt, Distance Covered -->
+  <div>
+    <h2>Fitness Tracking</h2>
+    <p>Steps Count: <span id="stepsCount">0</span></p>
+    <p>Calories Burnt: <span id="caloriesBurnt">0</span></p>
+    <p>Distance Covered: <span id="distanceCovered">0</span> km</p>
+  </div>
+
+  <!-- Menstruation Cycle Tracking -->
+  <div>
+    <h2>Menstruation Cycle Tracking</h2>
+    <p>Last Period Start Date: <input type="date" id="lastPeriodStartDate"></p>
+    <p>Next Period Start Date: <input type="date" id="nextPeriodStartDate"></p>
+  </div>
+
+  <!-- Water Intake Tracking -->
+  <div>
+    <h2>Water Intake Tracking</h2>
+    <p>Water Intake Today: <span id="waterIntake">0</span> ml</p>
+    <button onclick="logWaterIntake()">Log Water Intake</button>
+  </div>
+
+  <!-- Sedentary Reminder -->
+  <div>
+    <h2>Sedentary Reminder</h2>
+    <p>Take a break and move!</p>
+    <button onclick="startSedentaryReminder()">Start Reminder</button>
+    <button onclick="stopSedentaryReminder()">Stop Reminder</button>
+  </div>
+
+  <!-- Medication Reminder -->
+  <div>
+    <h2>Medication Reminder</h2>
+    <p>Take your medication on time!</p>
+    <button onclick="setMedicationReminder()">Set Reminder</button>
+  </div>
+
+  <!-- Competitions and Rewards -->
+  <div>
+    <h2>Competitions and Rewards</h2>
+    <p>Participate in competitions and win rewards!</p>
+    <button onclick="joinCompetition()">Join Competition</button>
+  </div>
+
+  <!-- Mental Health Tracking and Mood Swings -->
+  <div>
+    <h2>Mental Health Tracking</h2>
+    <p>Talk to an AI to track your mental health and address mood swings.</p>
+    <button onclick="startChatbot()">Start Chatbot</button>
+  </div>
+
+  <!-- Nutrition and Diet Chart -->
+  <div>
+    <h2>Nutrition and Diet Chart</h2>
+    <p>Manage your nutrition and get meal suggestions.</p>
+    <button onclick="getMealSuggestion()">Get Meal Suggestion</button>
+  </div>
+
+  <script>
+    // Add your JavaScript code here
+    function logWaterIntake() {
+      // Implement water intake tracking logic
+    }
+
+    function startSedentaryReminder() {
+      // Implement sedentary reminder logic
+    }
+
+    function stopSedentaryReminder() {
+      // Implement stop sedentary reminder logic
+    }
+
+    function setMedicationReminder() {
+      // Implement medication reminder logic
+    }
+
+    function joinCompetition() {
+      // Implement competition joining logic
+    }
+
+    function startChatbot() {
+      // Implement chatbot interaction logic
+    }
+
+    function getMealSuggestion() {
+      // Implement meal suggestion logic
+    }
+  </script>
+</body>
+</html>
